@@ -146,7 +146,7 @@ class todoController extends Controller
             return response()->json([
                 "status"=>"success",
                 "data"=>$todo
-            ],404);
+            ],200);
         }
     }
 }
